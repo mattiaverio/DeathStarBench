@@ -52,7 +52,7 @@ If you haven't already, install the Kubernetes command-line tool:
 export KUBECONFIG=~/Downloads/coursetestcluster_kubeconfig.yaml
 ```
 >[!TIP] 
->To make this permanent for the current session, you can add it to your shell profile (`~/.bashrc` or `~/.zshrc`), or simply run this command every time you open a new terminal window to work on this project.
+>Running this `export` command only configures your current terminal session. To make this change permanent across all future sessions, add the command to your shell profile (`~/.bashrc` or `~/.zshrc`). Otherwise, you will need to run the command every time you open a new terminal window for this project.
 <img width="2498" height="4398" alt="upcloud_kubeconfig" src="https://github.com/user-attachments/assets/61cbb4f1-d67b-4ac3-975b-2f862ba43dae" />
 
 
